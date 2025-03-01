@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Recap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+            
+        </div>
+        <span>Bubble Recap</span>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="reservation-btn">Reserve a Table</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Bubble Recap</h1>
+            <p>Experience the finest culinary delights in town</p>
+            <a href="#menu" class="btn">View Menu</a>
+            <a href="#" class="btn reservation-btn">Reserve a Table</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Begining</h3>
+                    <p>Founded in 2020, Bubble Recap brings authentic Taiwanese flavors to your doorstep. Our journey began with a simple mission: to create an extraordinary dining experience that combines traditional Taiwanese cuisine with modern culinary artistry.</p>
+                    <p>We take pride in importing premium ingredients directly from Taiwan, ensuring every dish maintains its authentic taste and quality. From our signature bubble teas to our innovative fusion dishes, we carefully select each ingredient to deliver an unforgettable dining experience. Our expert chefs, trained in traditional Taiwanese cooking techniques, craft each dish with precision and passion.</p>
+                    <p>At Bubble Recap, we believe in serving more than just food - we create memories. Our commitment to excellence extends from our kitchen to your table, making us a preferred destination for those seeking authentic Taiwanese flavors and exceptional service.</p>
+                    <a href="#menu" class="btn">Explore Our Menu</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://b.zmtcdn.com/data/pictures/1/19777581/f876cda92bc7ae1c0a972de4ff6728ee.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="Restaurant interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="specialties" class="specialties">
+        <div class="container">
+            <div class="section-header">
+                <h2>Chef's Specialties</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="specialties-content">
+                <div class="specialty-item">
+                    <div class="specialty-image">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/1/19777581/d1427d959f3ddffe3d5a7866a45a43dc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Specialty dish 1">
+                    </div>
+                    <div class="specialty-info">
+                        <h3>Mini Pizzas</h3>
+                        <p>Each bite-sized treat is topped with a colorful medley of fresh vegetables, melted cheese, and a single black olive. Perfect for any occasion, these vibrant mini pizzas are sure to impress.</p>
+                    </div>
+                </div>
+                <div class="specialty-item">
+                    <div class="specialty-image">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/1/19777581/73eaba58fb81b8c37f1744a99e5d7271.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Specialty dish 2">
+                    </div>
+                    <div class="specialty-info">
+                        <h3>Chicken Burger</h3>
+                        <p>A crispy chicken burger with a sesame seed bun, paired with a side of golden French fries, jalapeños, and black olives. The perfect blend of textures and flavors.</p>
+                    </div>
+                </div>
+                <div class="specialty-item">
+                    <div class="specialty-image">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/1/19777581/6edf8a2e9488c75d875f762f452427ea.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Specialty dish 3">
+                    </div>
+                    <div class="specialty-info">
+                        <h3>Chocolate Drink</h3>
+                        <p>Enjoy a rich chocolate drink, accompanied by a glass container filled with chocolate pieces and a delicious chocolate bar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <div class="divider"></div>
+                <p>Explore our carefully crafted menu featuring the freshest ingredients and seasonal specialties</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="starters">Starters</button>
+                <button class="menu-tab" data-category="main-courses">Main Courses</button>
+                <button class="menu-tab" data-category="seafood">Seafood</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-content">
+                <!-- Menu items will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gallery-content">
+                <div class="gallery-item">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/18e/8c4b6c702c121c0997fe9d8b251a918e_1693710150.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Restaurant image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/9f9/7b4815d96f6a44ed49a1fa4965f919f9_1641792892.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Restaurant image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/b98/d2b02b507b5d3f2ba2cdfd4dda452b98_1642781684.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Restaurant image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/066/f13ac518ead7e6b56b94deffed4a8066_1693710148.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Restaurant image 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/764/847622f09897f247ee0dfa54a88b8764_1635664466.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Restaurant image 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://b.zmtcdn.com/data/reviews_photos/475/d74562fa7f9c1a5b6cd6e422a1f35475_1642255759.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Restaurant image 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Guests Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-text">
+                        <p>"The best dining experience I've had in years. The food was exquisite and the service impeccable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>John Smith</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"An absolute culinary delight! The chef's special was amazing and the ambiance was perfect for our anniversary."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Emily Johnson</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"The seafood platter was fresh and delicious. We'll definitely be coming back for more!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Michael Brown</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Ground Floor, Aditya Jayrag, Emporium, Road 36, Jubilee Hills, Hyderabad</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>91 SS Goutham</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>sarangoutham2@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Tue-Sun: 11:00 AM - 12 Mid Night</p>
+                            <p>Mon: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Blue Ocean</h2>
+                    <p>Fine Dining Experience</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for special offers and updates</p>
+                    <form>
+                        <input type="email" placeholder="Your Email Address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bubble Recap. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="reservation-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Reserve a Table</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="tel" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Time</label>
+                        <input type="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Guests</label>
+                        <select required>
+                            <option value="">Select</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7+">7+ People</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Special Requests</label>
+                    <textarea></textarea>
+                </div>
+                <button type="submit" class="btn">Confirm Reservation</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
